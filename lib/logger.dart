@@ -13,36 +13,37 @@ import 'package:flutter/material.dart';
 /// Learn more on this: https://en.wikipedia.org/wiki/ANSI_escape_code
 ///
 class FlutterLogger {
-  /// print a message with red color
+  /// 🔴 Red Message
   static void printError(String text, {bool showIcon = true}) {
     debugPrint('\x1B[31m${showIcon ? '🔴: ' : ''}$text\x1B[0m');
   }
 
-  /// print a message with yellow color
+  /// 🟠 Orange Message
   static void printWarning(String text, {bool showIcon = true}) {
     debugPrint('\x1B[33m${showIcon ? '🟠: ' : ''}$text\x1B[0m');
   }
 
-  /// print a message with green color
+  /// 🟢 Green Message
   static void printSuccess(String text, {bool showIcon = true}) {
     debugPrint('\x1B[32m${showIcon ? '🟢: ' : ''}$text\x1B[0m');
   }
 
-  /// print a message with blue color
+  /// 🔵 Blue Message
   static void printAction(String text, {bool showIcon = true}) {
     debugPrint('\x1B[34m${showIcon ? '🔵: ' : ''}$text\x1B[0m');
   }
 
-  /// print a message with black color
+  /// ⚫ Black Message
   static void printDeath(String text, {bool showIcon = true}) {
     debugPrint('\x1B[30m${showIcon ? '⚫: ' : ''}$text\x1B[0m');
   }
 
-  /// print a message with black color
+  /// 🟣 Purple Message
   static void printPrincess(String text, {bool showIcon = true}) {
     debugPrint('\x1B[35m${showIcon ? '🟣: ' : ''}$text\x1B[0m');
   }
 }
+
 // ANSI codes
 // Black:   \x1B[30m
 // Red:     \x1B[31m
@@ -53,7 +54,8 @@ class FlutterLogger {
 // Cyan:    \x1B[36m
 // White:   \x1B[37m
 // Reset:   \x1B[0m
-// Emojis
+
+// Emojis Circle
 // 🔴 Red Circle
 // 🟠 Orange Circle
 // 🟡 Yellow Circle
@@ -63,6 +65,8 @@ class FlutterLogger {
 // 🟤 Brown Circle
 // ⚫ Black Circle
 // ⚪ White Circle
+
+// Emojis Square
 // 🟥 Red Square
 // 🟧 Orange Square
 // 🟨 Yellow Square
