@@ -13,6 +13,11 @@ import 'package:flutter/material.dart';
 /// Learn more on this: https://en.wikipedia.org/wiki/ANSI_escape_code
 ///
 class FlutterLogger {
+  /// ⚪ White Message
+  static void print(String text, {bool showIcon = true}) {
+    debugPrint('\x1B[37m${showIcon ? '⚪: ' : ''}$text\x1B[0m');
+  }
+
   /// 🔴 Red Message
   static void printError(String text, {bool showIcon = true}) {
     debugPrint('\x1B[31m${showIcon ? '🔴: ' : ''}$text\x1B[0m');
@@ -34,12 +39,12 @@ class FlutterLogger {
   }
 
   /// ⚫ Black Message
-  static void printDeath(String text, {bool showIcon = true}) {
+  static void printBlame(String text, {bool showIcon = true}) {
     debugPrint('\x1B[30m${showIcon ? '⚫: ' : ''}$text\x1B[0m');
   }
 
   /// 🟣 Purple Message
-  static void printPrincess(String text, {bool showIcon = true}) {
+  static void printFabolous(String text, {bool showIcon = true}) {
     debugPrint('\x1B[35m${showIcon ? '🟣: ' : ''}$text\x1B[0m');
   }
 }
