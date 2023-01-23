@@ -10,15 +10,15 @@ import 'package:flutter_logger/flutter_logger.dart';
 ## Code:
 ```dart
 //🔴 Red Message
-FlutterLogger.printError('ciao');
+FlutterLogger.printError('ciao!');
 //🟠 Orange Message
-FlutterLogger.printWarning('ciao');
+FlutterLogger.printWarning('ciao!');
 //🟢 Green Message
-FlutterLogger.printSuccess('ciao');
+FlutterLogger.printSuccess('ciao!');
 //🔵 Blue Message
-FlutterLogger.printAction('ciao');
+FlutterLogger.printAction('ciao!');
 //⚫ Black Message
-FlutterLogger.printDeath('ciao');
+FlutterLogger.printBlame('ciao!');
 //🟣 Purple Message
-FlutterLogger.printPrincess('ciao');
+FlutterLogger.printFabolous('ciao!');
 ```
