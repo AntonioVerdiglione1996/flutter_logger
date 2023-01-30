@@ -1,6 +1,6 @@
 name: flutter_logger
 description: Super-Simple utility to print colored messages in your terminal to speed up your development!
-version: 0.0.1
+version: 1.0.0
 homepage:
 
 environment:

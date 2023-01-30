@@ -1,6 +1,6 @@
 ### 👋 Ciao!<br> 
 # Welcome to Flutter Logger! 
-Super-Simple utility to print colored messages in your terminal to speed up your development!
+Super-Simple utility to print colored messages in terminal to speed up your development! 
 
 ## Import:
 ```dart
